@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="85956C2A-8968-A4E4-2D48-0B078CD109D3" name="Jas">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 08:56:29 UTC</createdTime>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_jas" id="5A57AA34-528F-17CF-2D5A-1B80C492395A">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 08:56:43 UTC</createdTime>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ukuran_jas" id="C1A4B396-1E27-ADB0-21DF-9026B5558090">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 08:57:33 UTC</createdTime>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="warna_jas" id="0A395631-5C7D-B2F7-166D-7852AC17A8AC">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 08:58:22 UTC</createdTime>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="harga_sewa" id="6CBEACCC-7C6E-7359-9916-CADA889E08D1">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 08:59:03 UTC</createdTime>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D91CD7CB-5672-7F0E-115D-F9504749173D" name="Jas PK">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 08:57:30 UTC</createdTime>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5A57AA34-528F-17CF-2D5A-1B80C492395A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

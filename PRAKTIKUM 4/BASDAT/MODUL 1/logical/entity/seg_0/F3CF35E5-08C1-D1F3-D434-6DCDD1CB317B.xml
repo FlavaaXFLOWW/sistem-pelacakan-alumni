@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F3CF35E5-08C1-D1F3-D434-6DCDD1CB317B" name="Pelanggan">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 08:50:22 UTC</createdTime>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pelanggan" id="280EF2B0-E79F-CE1C-8449-50A63E53B75C">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 08:51:51 UTC</createdTime>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_pelanggan" id="CC5BCAE9-8055-A82B-90DE-C588676A7032">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 08:52:58 UTC</createdTime>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alamat_pelanggan" id="B9DCD378-92AE-A425-109A-39FA07386A2D">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 08:54:08 UTC</createdTime>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Attribute_1" id="772D8AC8-D4B7-E4DE-AB56-86CD21C912C2">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 08:54:47 UTC</createdTime>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="ABFC4559-06C5-F643-FFC6-ECB3B622BFC4">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 09:01:18 UTC</createdTime>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D8697CE4-E8AD-F98A-C5E5-DFB52A16262F" name="Pelanggan PK">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 08:52:50 UTC</createdTime>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>280EF2B0-E79F-CE1C-8449-50A63E53B75C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

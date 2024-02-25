@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2628F602-31A8-2C17-7427-7EA4A7435C42" name="Transaksi">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 09:12:21 UTC</createdTime>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_transaksi" id="D6A828B5-C959-E4EB-7046-150DFD4958EF">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 09:12:46 UTC</createdTime>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_penyewaan" id="374A6EEF-F8F6-A413-A4CB-97E11A955A48">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 09:13:14 UTC</createdTime>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="metode_pembayaran" id="CA8E6C21-103B-F59D-CBC0-551EADA8936E">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 09:13:46 UTC</createdTime>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_transaksi" id="97AC5E24-5A23-B621-89C6-D0E937C9E54E">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 09:14:22 UTC</createdTime>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_penyewaan1" id="BE194875-1369-03B9-8DAC-45A3A916C1C6">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 09:35:54 UTC</createdTime>
+<generatorID>9CE05F4E-B854-3ACD-9CB3-2540DB1ABF91</generatorID>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>EF1BB811-778B-D11B-D847-A9FC58630DAF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pelanggan" id="08EC5C8A-475E-3973-D10A-6215DAC9321B">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 09:35:54 UTC</createdTime>
+<generatorID>9CE05F4E-B854-3ACD-9CB3-2540DB1ABF91</generatorID>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A6786990-5158-96B4-1E4F-6D2308D9B043</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_jas" id="5A3473C4-3E75-1A3B-2620-88E45ED672BD">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 09:35:54 UTC</createdTime>
+<generatorID>9CE05F4E-B854-3ACD-9CB3-2540DB1ABF91</generatorID>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>367C6CB1-3B66-6F08-676D-7B87304018ED</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D397531A-CB7E-7A44-3591-751BAD8EA7E2" name="Transaksi PK">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 09:13:09 UTC</createdTime>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D6A828B5-C959-E4EB-7046-150DFD4958EF</attributeRef>
+<attributeRef>374A6EEF-F8F6-A413-A4CB-97E11A955A48</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

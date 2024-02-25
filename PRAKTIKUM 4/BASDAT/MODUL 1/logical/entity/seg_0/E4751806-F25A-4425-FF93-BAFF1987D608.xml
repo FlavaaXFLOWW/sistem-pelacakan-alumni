@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E4751806-F25A-4425-FF93-BAFF1987D608" name="Penyewaan">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 09:02:57 UTC</createdTime>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_penyewaan" id="EF1BB811-778B-D11B-D847-A9FC58630DAF">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 09:03:10 UTC</createdTime>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pelanggan" id="A6786990-5158-96B4-1E4F-6D2308D9B043">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 09:05:33 UTC</createdTime>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_jas" id="367C6CB1-3B66-6F08-676D-7B87304018ED">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 09:06:44 UTC</createdTime>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_sewa" id="150BDCD5-EECD-54F9-57CD-799600B51B1E">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 09:07:50 UTC</createdTime>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total_biaya" id="21611FE1-D03E-D601-1775-337A708E62BC">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 09:10:12 UTC</createdTime>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_transaksi" id="563B0ED7-C447-1B1B-2A73-F4DC3959C96E">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 09:36:03 UTC</createdTime>
+<generatorID>9CE05F4E-B854-3ACD-9CB3-2540DB1ABF91</generatorID>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D6A828B5-C959-E4EB-7046-150DFD4958EF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_penyewaan1" id="BAA2AA8A-F263-7CAD-E486-7598395C40B3">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 09:36:03 UTC</createdTime>
+<generatorID>9CE05F4E-B854-3ACD-9CB3-2540DB1ABF91</generatorID>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>374A6EEF-F8F6-A413-A4CB-97E11A955A48</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pengembalian" id="4105A83E-3C26-AAC3-083A-A8F64C2CEF1C">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 09:36:31 UTC</createdTime>
+<generatorID>68453886-2937-11C5-C5EE-242F93E070AA</generatorID>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D31AEB64-7B33-C541-D0F2-849A697B0704</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_penyewaan2" id="8EC5D482-345C-BE9F-FC84-D8713D62BDF7">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 09:36:31 UTC</createdTime>
+<generatorID>68453886-2937-11C5-C5EE-242F93E070AA</generatorID>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6307E2BF-AB6C-59F3-A4AE-85BCE0F42555</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5FC76A38-0A7A-D7D6-6DC9-19A480FC1B4C" name="Penyewaan PK">
+<createdBy>Modern 14</createdBy>
+<createdTime>2024-02-25 09:04:47 UTC</createdTime>
+<ownerDesignName>MODUL 1</ownerDesignName>
+<engineerTo>
+<item key="E1A55B8B-5E2E-C364-F92E-34A009587A3E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EF1BB811-778B-D11B-D847-A9FC58630DAF</attributeRef>
+<attributeRef>A6786990-5158-96B4-1E4F-6D2308D9B043</attributeRef>
+<attributeRef>367C6CB1-3B66-6F08-676D-7B87304018ED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
